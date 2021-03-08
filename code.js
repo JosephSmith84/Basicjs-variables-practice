@@ -11,6 +11,7 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 //
 // Write your code here 👇
 
+console.log(16);
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Two");
@@ -18,6 +19,7 @@ console.log("Exercise Two");
 //
 // Write your code here 👇
 
+console.log(6 / 3);
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Three");
@@ -25,14 +27,15 @@ console.log("Exercise Three");
 //
 // Write your code here 👇
 
-console.log(1 + 3 * 4);
+console.log((1 + 3) * 4);
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Four");
 // - Un-comment the following variable, and then on the next line use console.log() to print it to the console.
 // Write your code here 👇
 
-// let myFavoriteNumber = 6;
+let myFavoriteNumber = 6;
+console.log(myFavoriteNumber);
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Five");
@@ -40,12 +43,17 @@ console.log("Exercise Five");
 //
 // Write your code here 👇
 
+let otherNumber = 5;
+console.log(otherNumber);
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Six");
 // - Create a variable called "result" and do not assign it any value!  Then log it to the console. (hint: this should print undefined)
 //
 // Write your code here 👇
+
+let result;
+console.log(result);
 
 
 // ----------------------------------------------------------------------------------------------
@@ -56,6 +64,9 @@ console.log("Exercise Seven");
 //
 // Write your code here 👇
 
+result = myFavoriteNumber * otherNumber;
+console.log(result);
+
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Eight");
@@ -65,6 +76,11 @@ console.log("Exercise Eight");
 // Then Print the difference to the console.  (This should print a negative number!)
 //
 // Write your code here 👇
+
+let a = 5;
+let b = 8;
+let difference = a - b;
+console.log(difference);
 
 
 // ----------------------------------------------------------------------------------------------
@@ -80,6 +96,15 @@ console.log("Exercise Nine");
 //
 // Write your code here 👇
 
+let numPetsIHave = 6
+let numSunglassesIOwn = 1
+let lastMealRating = 2
+let daysSinceIVisitedGroceryStore = 14
+
+console.log(numPetsIHave);
+console.log(numSunglassesIOwn);
+console.log(lastMealRating);
+console.log(daysSinceIVisitedGroceryStore);
 
 
 // When you are done, your console output should match the following: (Except your Exercise 9 will be different.)
